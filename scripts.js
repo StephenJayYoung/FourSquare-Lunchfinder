@@ -6,7 +6,15 @@ $.ajax({
   dataType: "json",
   success: function(json) {
 
-  	console.log(json.response.groups[0].items[0].venue.name);
+
+  	var restaurantName = json.response.groups[0].items[0].venue.name;
+  	// create a tag
+  	// make the tag have some text
+  	// append the tag to the body
+  	$('<h1>')
+  		.text(restaurantName)
+  		.appendTo('body');
+
   },
 });
 

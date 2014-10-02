@@ -19,13 +19,15 @@
        console.log(json.response.groups[0].items[0]);
        console.log(json.response.groups[0].items[0].venue);
 
-1. Get that name to appear in Chrome
+
+1. Get that name to appear in console
 1. Start working on the function to extract the appropriate info
-1. Roadmap for post-lunch
+
 
 ## Post Lunch 1-2
 
-1. More stuff...
+1. get one restaurant name to appear on webpage
+1. come back to this spot
 
 ## General Reminders
 
