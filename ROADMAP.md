@@ -28,6 +28,9 @@
 
 1. get one restaurant name to appear on webpage
 1. come back to this spot
+1. extract one photo from json object
+1. make it show
+1. change photo flag to 1
 
 ## General Reminders
 
