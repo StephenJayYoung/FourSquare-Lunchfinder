@@ -17,11 +17,17 @@ $( "#target" ).submit(function(event) {
 	  url: "https://api.foursquare.com/v2/venues/explore",
 	  data: data,
 	  dataType: "json",
+
+
+
 	  success: function(json) {
       var itemsArray = json.response.groups[0].items;
       var randomItem = itemsArray[Math.floor(Math.random() * itemsArray.length)];
       var venue = randomItem.venue;
 	  	var restaurantName = venue.name;
+
+	  $("#currentVenue > h1").replaceWith( '<h2>' + venue.name + '</h2>' );
+
 
 	  	$('<h1>')
 	  		.text(restaurantName)
@@ -37,9 +43,12 @@ $( "#target" ).submit(function(event) {
 	  		.attr('src', url)
 	  		.attr('alt', 'Image')
 	  		.appendTo('body');
+
+
+    	console.log()
+
 	  },
 
-    $('#currentVenue')
-    console.log()
+
 	});
 });
