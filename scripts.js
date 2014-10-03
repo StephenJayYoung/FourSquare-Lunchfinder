@@ -26,12 +26,18 @@ $( "#target" ).submit(function(event) {
       var venue = randomItem.venue;
 	  	var restaurantName = venue.name;
 
-	  $("#currentVenue > h1").replaceWith( '<h2>' + venue.name + '</h2>' );
+	  // $( h1").replaceWith( '<h1>' + restaurantName + '</h1>' );
+	  // $( img").replaceWith( '<img src="' + url + '" alt="Image">');
+
+	  var $currentVenue = $('#currentVenue');
+
+	  $("h1",$currentVenue).remove();
+	  $("img",$currentVenue).remove();
 
 
 	  	$('<h1>')
 	  		.text(restaurantName)
-	  		.appendTo('body');
+	  		.appendTo('#currentVenue');
 
 	  	var photoInfo = venue.photos.groups[0].items[0];
 	  	var prefix = photoInfo.prefix;
@@ -42,7 +48,7 @@ $( "#target" ).submit(function(event) {
 	  	$('<img>')
 	  		.attr('src', url)
 	  		.attr('alt', 'Image')
-	  		.appendTo('body');
+	  		.appendTo('#currentVenue');
 
 
     	console.log()
