@@ -30,10 +30,43 @@
 1. extract one photo from json object X
 1. make it show X
 1. change photo flag to 1 X
-1. figure out how to make it show one thing in our area (get this done today)
+1. figure out how to make it show one thing in our area X
+1. install a button into our site that will take the users specified location and return the restaurants around that location . 
+	1. research how to add a form to our site
+	1. research how to make a submit button work
+	1. make a function which will change our code to reflect the user location input
+
 1. confirm that things it shows us are near us (we can use a predetermined location- PCS?)
 1. it should show us more than just one of the spots near us
 
-## General Reminders
+## General RemindersInstall
 
 _COMMIT!!!!!!!!!!_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
