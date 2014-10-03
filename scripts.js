@@ -1,4 +1,4 @@
-var near = 'Portland, OR';
+var near = 'Bellingham, WA';
 var data = {
 	near: near,
 	section: 'food',
@@ -16,7 +16,12 @@ $.ajax({
   data: data,
   dataType: "json",
   success: function(json) {
-  	var venue = json.response.groups[0].items[0].venue;
+    var itemsArray = json.response.groups[0].items;
+    var randomItem = itemsArray[Math.floor(Math.random() * itemsArray.length)];
+    console.log(randomItem.venue);
+
+
+  	var venue = randomItem.venue;
   	var restaurantName = venue.name;
 
   	$('<h1>')
@@ -35,3 +40,6 @@ $.ajax({
   		.appendTo('body');
   },
 });
+
+
+// var random_entry = entry[Math.floor(Math.random() * entry.length)]
