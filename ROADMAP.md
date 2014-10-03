@@ -44,6 +44,31 @@
 
 _COMMIT!!!!!!!!!!_
 
+## Friday, October 3
+
+# Pre-lunch (one hour)
+
+1. configure page so that one venue shows up at a time
+       1. research
+       1. talk to dan
+
+1. what we've decided to do
+       1. use id tag to identify each element in the array of venue names
+       1. find jquery thang that removes the first name and photo
+       1. use the next tag to add new name and photo
+       1. repeat above - return to this 
+
+       1. tasks to get above done
+              1. 
+
+
+
+
+1. be able to access user's current location to find venues nearby
+
+
+
+
 
 
 

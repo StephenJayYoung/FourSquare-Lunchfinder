@@ -20,7 +20,6 @@ $( "#target" ).submit(function(event) {
 	  success: function(json) {
       var itemsArray = json.response.groups[0].items;
       var randomItem = itemsArray[Math.floor(Math.random() * itemsArray.length)];
-
       var venue = randomItem.venue;
 	  	var restaurantName = venue.name;
 
@@ -39,5 +38,8 @@ $( "#target" ).submit(function(event) {
 	  		.attr('alt', 'Image')
 	  		.appendTo('body');
 	  },
+
+    $('#currentVenue')
+    console.log()
 	});
 });
