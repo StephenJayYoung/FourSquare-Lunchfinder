@@ -8,7 +8,7 @@
 
 ## 30 Min Before Lunch
 
-1. Decide what we want to extract from the JSON File in the function - photo, lunch spot, 
+1. Decide what we want to extract from the JSON File in the function - photo, lunch spot,
 1. Start working on the function to extract the name of a lunch spot
 
        console.log(json);
@@ -56,13 +56,9 @@ _COMMIT!!!!!!!!!!_
        1. use id tag to identify each element in the array of venue names
        1. find jquery thang that removes the first name and photo
        1. use the next tag to add new name and photo
-       1. repeat above - return to this 
+       1. repeat above - return to this
 
        1. tasks to get above done
-              1. 
-
-
-
 
 1. be able to access user's current location to find venues nearby
 

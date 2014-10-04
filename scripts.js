@@ -18,22 +18,16 @@ $( "#target" ).submit(function(event) {
 	  data: data,
 	  dataType: "json",
 
-
-
 	  success: function(json) {
       var itemsArray = json.response.groups[0].items;
       var randomItem = itemsArray[Math.floor(Math.random() * itemsArray.length)];
       var venue = randomItem.venue;
 	  	var restaurantName = venue.name;
 
-	  // $( h1").replaceWith( '<h1>' + restaurantName + '</h1>' );
-	  // $( img").replaceWith( '<img src="' + url + '" alt="Image">');
-
 	  var $currentVenue = $('#currentVenue');
 
 	  $("h1",$currentVenue).remove();
 	  $("img",$currentVenue).remove();
-
 
 	  	$('<h1>')
 	  		.text(restaurantName)
@@ -49,12 +43,6 @@ $( "#target" ).submit(function(event) {
 	  		.attr('src', url)
 	  		.attr('alt', 'Image')
 	  		.appendTo('#currentVenue');
-
-
-    	console.log()
-
 	  },
-
-
 	});
 });
