@@ -12,11 +12,12 @@ body {
 	background-color: white;
 	text-align: center;
 	font-size: 42px;
+	border: 3px solid green;
 	font-family: futura;
 }
 
-
 .buttonAndInput {
+	padding-top: .25em;
 	background-color: transparent;
 }
 
