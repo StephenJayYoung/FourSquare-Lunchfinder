@@ -5,23 +5,26 @@ body {
 	background-size:30px;
   color: black;
 	font-family: 'Lobster', cursive;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .heading {
-	background-color: white;
+	background: url(http://4.bp.blogspot.com/-OxQaj5OL4Jw/TlMXENM1K-I/AAAAAAAACRE/r73ZIZ1gPO4/s320/GREEN+POLKA+BACKGROUND.jpg);
 	text-align: center;
-	font-size: 42px;
-	border: 3px solid green;
+	font-size: 60px;
+	border: 6.2px solid green;
 	font-family: 'Lobster', cursive;
 }
 
 .buttonAndInput {
-	padding-top: .25em;
+	padding-top: .3em;
 	background-color: transparent;
 }
 
 .output {
-	background-color:transparent;
-	border-style: bold;
+  text-align: center;
+  background: transparent;
+  width: 500px;
+  margin: auto;
+  overflow: auto;
 }
