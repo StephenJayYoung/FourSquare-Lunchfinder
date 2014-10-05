@@ -23,8 +23,14 @@ body {
 
 .output {
   text-align: center;
-  background: transparent;
-  width: 500px;
+  text-shadow: -.3px 0 black, 0 .3px black, .3px 0 black, 0 -.3px black;
+  text-decoration: underline;
+  padding-top: 1.5px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+	background: white;
+  width: 400px;
   margin: auto;
   overflow: auto;
 }
