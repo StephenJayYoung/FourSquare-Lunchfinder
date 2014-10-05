@@ -14,3 +14,13 @@ body {
 	font-size: 42px;
 	font-family: futura;
 }
+
+
+.buttonAndInput {
+	background-color: transparent;
+}
+
+.output {
+	background-color:transparent;
+
+}
