@@ -1,8 +1,8 @@
 $( "#target" ).submit(function(event) {
 	event.preventDefault();
-	var near = $('#target input').val();
+	var close = $('#target input').val();
 	var data = {
-		near: near,
+		close: close,
 		section: 'food',
 		venuePhotos: '1',
 
