@@ -4,7 +4,7 @@ $( "#target" ).submit(function(event) {
 	var data = {
 		close: close,
 		section: 'food',
-		venuePhotos: '1',
+		venuePhotos: '1', 
 
 		// required stuffs
 		v: '20141002',
