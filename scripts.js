@@ -1,10 +1,10 @@
 $( "#target" ).submit(function(event) {
 	event.preventDefault();
-	var close = $('#target input').val();
+	var near = $('#target input').val();
 	var data = {
-		close: close,
+		near: near,
 		section: 'food',
-		venuePhotos: '1', 
+		venuePhotos: '1',
 
 		// required stuffs
 		v: '20141002',
