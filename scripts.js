@@ -17,6 +17,7 @@ $( "#target" ).submit(function(event) {
 	  url: "https://api.foursquare.com/v2/venues/explore",
 	  data: data,
 	  dataType: "json",
+//use something different than success (which will work better w/ ember)
 
 	  success: function(json) {
       var itemsArray = json.response.groups[0].items;
