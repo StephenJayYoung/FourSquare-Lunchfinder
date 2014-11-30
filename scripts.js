@@ -41,9 +41,7 @@ $( "#target" ).submit(function(event) {
 	  	var url = prefix + size + suffix;
 
 	  	$('<img>')
-	  		.attr('src', url)
-	  		.attr('alt', 'Image')
-	  		.appendTo('#currentVenue');
+	  		<img {{bind-attr src=photoURL}}></img>
 	  },
 	});
 });
