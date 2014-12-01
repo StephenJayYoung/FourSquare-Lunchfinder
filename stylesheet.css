@@ -1,36 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|PT+Sans);
+
 body {
-	background-color: transparent;
 	text-align: center;
   background-image: url(http://assets.jackinthebox.com/products/18/image/large_JrBaconCheeseburger.png);
-	background-size:30px;
-  color: black;
-	font-family: 'Lobster', cursive;
-  font-size: 25px;
+	background-size: 5px;
 }
 
 .heading {
 	background: url(http://4.bp.blogspot.com/-OxQaj5OL4Jw/TlMXENM1K-I/AAAAAAAACRE/r73ZIZ1gPO4/s320/GREEN+POLKA+BACKGROUND.jpg);
-	text-align: center;
-	font-size: 60px;
+	font-size: 15px;
 	border: 6.2px solid green;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster', "PT Sans", sans-serif;
 }
 
 .buttonAndInput {
+  background: transparent;
 	padding-top: .3em;
-	background-color: transparent;
 }
+
 
 .output {
   text-align: center;
   text-shadow: -.3px 0 black, 0 .3px black, .3px 0 black, 0 -.3px black;
-  
   padding-top: 1.5px;
   padding-right: 3px;
   padding-bottom: 4px;
   padding-left: 3px;
 	background: white;
   width: 400px;
+
+#currentVenue {
+  /*background-color: #ffffff;*/
   margin: auto;
-  overflow: auto;
+  width: 400px;
+  height: 400px;
 }
