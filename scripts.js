@@ -17,7 +17,8 @@ $( "#target" ).submit(function(event) {
 	  url: "https://api.foursquare.com/v2/venues/explore",
 	  data: data,
 	  dataType: "json",
-//use something different than success (which will work better w/ ember)
+
+
 
 	  success: function(json) {
       var itemsArray = json.response.groups[0].items;
@@ -25,10 +26,14 @@ $( "#target" ).submit(function(event) {
       var venue = randomItem.venue;
 	  	var restaurantName = venue.name;
 
+	  // $( h1").replaceWith( '<h1>' + restaurantName + '</h1>' );
+	  // $( img").replaceWith( '<img src="' + url + '" alt="Image">');
+
 	  var $currentVenue = $('#currentVenue');
 
 	  $("h1",$currentVenue).remove();
 	  $("img",$currentVenue).remove();
+
 
 	  	$('<h1>')
 	  		.text(restaurantName)
@@ -41,7 +46,15 @@ $( "#target" ).submit(function(event) {
 	  	var url = prefix + size + suffix;
 
 	  	$('<img>')
-	  		<img {{bind-attr src=photoURL}}></img>
+	  		.attr('src', url)
+	  		.attr('alt', 'Image')
+	  		.appendTo('#currentVenue');
+
+
+    	console.log()
+
 	  },
+
+
 	});
 });
